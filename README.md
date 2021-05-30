@@ -8,7 +8,7 @@ CAPS Phase 1: Begin the build of an application for a company called CAPS - The 
 ## link 
 
 [repository](https://github.com/ahmad-arman/CAPS)<br>
-[pull request](https://github.com/ahmad-arman/CAPS/pulls/1)<br>
+[pull request](https://github.com/ahmad-arman/CAPS/pull/2)<br>
 [action](https://github.com/ahmad-arman/CAPS/actions)<br>
 
 
