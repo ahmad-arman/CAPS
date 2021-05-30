@@ -4,7 +4,8 @@
   "description": "",
   "main": "caps.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "start":"node events.js",
+    "test": "jest --verbose --coverage  "
   },
   "repository": {
     "type": "git",
