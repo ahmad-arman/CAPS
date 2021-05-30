@@ -14,9 +14,6 @@ const event = require('../events')
  
         event.emit('delivered',order)
      }, 3000);
-  
-    
-
    });
 
 
