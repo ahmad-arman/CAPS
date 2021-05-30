@@ -30,7 +30,7 @@ describe('Logger middleware', ()=> {
         consoleSpy.mockRestore();
     });
 
-    it('logs the output', async ()=> {
+    it('pickup event', async ()=> {
         // logger(req, res, next);
        event.emit('pickup',order)
        await consoleSpy();
@@ -39,7 +39,7 @@ describe('Logger middleware', ()=> {
         // expect(next).toHaveBeenCalled();
     });
 
-    it('logs the output', async ()=> {
+    it('in_trains event', async ()=> {
         // logger(req, res, next);
        event.emit('in_transit',order)
        await consoleSpy();
@@ -48,7 +48,7 @@ describe('Logger middleware', ()=> {
         // expect(next).toHaveBeenCalled();
     });
 
-    it('logs the output', async ()=> {
+    it('delivered event', async ()=> {
         // logger(req, res, next);
        event.emit('delivered',order)
        await consoleSpy();
